@@ -5,7 +5,7 @@ MERN Stack app to explore file uploads solutions
 https://www.geeksforgeeks.org/upload-and-retrieve-image-on-mongodb-using-mongoose/
 
 # ALERT
-The code retrieved from the above link maintained a bug which has been resolved. This branch will demonstrate file upload to MONGODB using RESTful API framework. 
+This branch is fully functional. The code retrieved from the above link maintained a bug which has been resolved. This branch will demonstrate file upload to MONGODB using RESTful API framework. 
 
 # Dependencies
   "dependencies": {
