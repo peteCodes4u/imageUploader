@@ -49,15 +49,13 @@ app.post('/', upload.single('image'), (req, res, next) => {
         }
     }
     imgSchema.create(obj)
-    .then ((err, item) => {
-        if (err) {
-            console.log(err);
-        }
-        else {
-            // item.save();
-            res.redirect('/');
-        }
-    });
+    .then ((item) => {
+        res.redirect('/');
+    })
+    .catch((err) => {
+        console.log(err);
+        res.status(500).send('Error creating item');
+    })
 });
 
 var port = process.env.PORT || '3000'
