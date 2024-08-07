@@ -5,5 +5,15 @@ MERN Stack app to explore file uploads solutions
 https://www.geeksforgeeks.org/upload-and-retrieve-image-on-mongodb-using-mongoose/
 
 # ALERT
-This code maintains bugs. It does not function as intended and additional debugging will be required to make this function.
-Currently this app will run when you execute npm start and you can navigate to the localhost to upload a file. The file will upload to your mongodb, however the process does not terminate and leaves the client hangging untill the process is manually exited by shutting down the server. The image is expected to load in the html page. 
+The code retrieved from the above link maintained a bug which has been resolved. This branch will demonstrate file upload to MONGODB using RESTful API framework. 
+
+# Dependencies
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4"
+  },
